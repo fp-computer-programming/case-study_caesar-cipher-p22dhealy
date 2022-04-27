@@ -14,12 +14,16 @@ def cipher_key(shift):
 
 def shift_line(line, dict_key):
     new_line = ""
-    # Add code here
+    for letter in line:
+        letter == dict[dict_key]
+    new_line.append(letter)
     return new_line
+    
 
 
 def encrypt_message(filename, dict_key):
-    # Add code here
+    file = open("encrypted_{0}".format(filename), "w")
+    file.write
 
 
 # Main
